@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: Gumball12/yuki-no@yarn
+      - uses: Gumball12/yuki-no@use-yarn
         with:
           # GitHub token for authentication (uses repository's token)
           access-token: ${{ secrets.GITHUB_TOKEN }}
