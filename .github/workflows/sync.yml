@@ -8,7 +8,7 @@ jobs:
     name: Yuki-no
     runs-on: ubuntu-latest
     steps:
-      - uses: Gumball12/yuki-no@use-yarn
+      - uses: Gumball12/yuki-no@v1
         with:
           # GitHub token for authentication (uses repository's token)
           access-token: ${{ secrets.GITHUB_TOKEN }}
