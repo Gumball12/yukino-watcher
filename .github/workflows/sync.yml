@@ -31,3 +31,5 @@ jobs:
 
           # Required: Initial commit to start tracking from
           initial-commit: 0d45f892fc9a0137406911a33161a26ce413ba4f
+
+          path-starts-with: docs/
