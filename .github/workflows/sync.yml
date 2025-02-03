@@ -18,7 +18,7 @@ jobs:
           # Defaults to 'github-actions'.
           # Note: Using only one of username or email might cause
           # GitHub Actions bot to work incorrectly.
-          # username: github-actions
+          username: hi
 
           # Git email address to use when making issues. Optional.
           # Defaults to 'action@github.com'.
