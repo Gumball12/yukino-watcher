@@ -61,3 +61,5 @@ jobs:
           # and add comments about release status. Optional.
           # Defaults to 'false'
           release-tracking: true
+
+          verbose: true
