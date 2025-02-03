@@ -18,13 +18,13 @@ jobs:
           # Defaults to 'github-actions'.
           # Note: Using only one of username or email might cause
           # GitHub Actions bot to work incorrectly.
-          username: github-actions
+          # username: github-actions
 
           # Git email address to use when making issues. Optional.
           # Defaults to 'action@github.com'.
           # Note: Using only one of username or email might cause
           # GitHub Actions bot to work incorrectly.
-          email: 'action@github.com'
+          # email: 'action@github.com'
 
           # The url for the upstream repo. This is the repository that you
           # set up Yuki-no. Required.
@@ -50,11 +50,11 @@ jobs:
           # Labels to add to the issues. You can specify multiple labels.
           # Each label must be separated by a newline. Optional.
           # If empty string('') is provided, no labels will be added.
-          # # Defaults to 'sync'.
-          # labels: |
-          #   sync
-          #   needs review
-          #   my-label
+          # Defaults to 'sync'.
+          labels: |
+            sync
+            needs review
+            my-label
 
           # Whether to enable release tracking.
           # When enabled, Yuki-no will track releases for each issue
