@@ -18,7 +18,7 @@ jobs:
           # Defaults to 'github-actions'.
           # Note: Using only one of username or email might cause
           # GitHub Actions bot to work incorrectly.
-          username: hi
+          # username: hi
 
           # Git email address to use when making issues. Optional.
           # Defaults to 'action@github.com'.
@@ -28,7 +28,7 @@ jobs:
 
           # The url for the upstream repo. This is the repository that you
           # set up Yuki-no. Required.
-          upstream-repo: https://github.com/Gumball12/yukino-watcher.git
+          # upstream-repo: https://github.com/Gumball12/yukino-watcher.git
 
           # The head repo to track. This is the repository you want to
           # take a diff. Required.
