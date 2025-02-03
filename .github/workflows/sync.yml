@@ -28,11 +28,11 @@ jobs:
 
           # The url for the upstream repo. This is the repository that you
           # set up Yuki-no. Required.
-          upstream-repo: https://github.com/vitejs/docs-ko.git
+          upstream-repo: https://github.com/vitejs/yukino-watcher.git
 
           # The head repo to track. This is the repository you want to
           # take a diff. Required.
-          head-repo: https://github.com/vitejs/vite.git
+          head-repo: https://github.com/vitejs/yukino-source.git
 
           # The branch for the head repo. Optional.
           # Defaults to 'main'.
