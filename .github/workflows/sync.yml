@@ -9,7 +9,7 @@ jobs:
     name: Yuki-no
     runs-on: ubuntu-latest
     steps:
-      - uses: Gumball12/yuki-no@v1
+      - uses: Gumball12/yuki-no@wip
         with:
           # GitHub access token. Required.
           access-token: ${{ secrets.GITHUB_TOKEN }}
@@ -63,3 +63,9 @@ jobs:
           release-tracking: true
 
           verbose: true
+
+          include: |
+            docs/**
+
+          exclude: |
+            docs/**/*.md
