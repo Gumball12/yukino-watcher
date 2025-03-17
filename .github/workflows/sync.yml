@@ -40,7 +40,7 @@ jobs:
 
           # The git commit sha of head repo to start tracking. Yuki-no will
           # only track commit from this hash. Required.
-          track-from: 4ed8b2f83a2f149734f3c5ecb6438309bd85a9e5
+          track-from: 4a2c9d21d9783e3112716eeeb04696ccf8cfddea
 
           # File path to track. If specified, Yuki-no will only track commits
           # that modified files under this path. If not specified, it will
