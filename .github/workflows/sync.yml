@@ -51,10 +51,10 @@ jobs:
           # Each label must be separated by a newline. Optional.
           # If empty string('') is provided, no labels will be added.
           # Defaults to 'sync'.
-          labels: |
-            sync
-            needs review
-            my-label
+          # labels: |
+          #   sync
+          #   needs review
+          #   my-label
 
           # Whether to enable release tracking.
           # When enabled, Yuki-no will track releases for each issue
@@ -64,8 +64,8 @@ jobs:
 
           verbose: true
 
-          include: |
-            docs/**
+          # include: |
+          #   docs/**
 
-          exclude: |
-            docs/**/*.md
+          # exclude: |
+          #   docs/**/*.md
