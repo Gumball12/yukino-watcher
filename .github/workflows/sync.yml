@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: Gumball12/yuki-no@wip
+        env:
+          PLUGIN_MESSAGE: 'Translated by our team'
+          DEBUG_MODE: true
         with:
           # GitHub access token. Required.
           access-token: ${{ secrets.GITHUB_TOKEN }}
@@ -69,3 +72,6 @@ jobs:
 
           # exclude: |
           #   docs/**/*.md
+
+          plugins: |
+            @gumball12/yuki-no-plugin-test
