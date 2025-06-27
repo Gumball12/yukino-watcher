@@ -75,3 +75,4 @@ jobs:
 
           plugins: |
             @gumball12/yuki-no-plugin-test@0.0.1
+            ./test-plugin.js
