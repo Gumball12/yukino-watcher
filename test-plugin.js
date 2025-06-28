@@ -17,7 +17,7 @@ const plugin = {
       console.log(`[${plugin.name}] 💬 Custom message: ${customMessage}`);
     }
 
-    const debugMode = getBooleanInput('DEBUG_MODE');
+    const debugMode = getBooleanInput('PLUGIN_DEBUG_MODE');
     if (debugMode) {
       console.log(`[${plugin.name}] 🐛 Debug mode enabled`);
     }

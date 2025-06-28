@@ -12,7 +12,13 @@ jobs:
       - uses: Gumball12/yuki-no@wip
         env:
           PLUGIN_MESSAGE: 'Translated by our team'
-          DEBUG_MODE: true
+          PLUGIN_DEBUG_MODE: true
+          PLUGIN_MULTILINE_VALUE: |
+            1
+            2
+            3
+            hi
+            4
         with:
           # GitHub access token. Required.
           access-token: ${{ secrets.GITHUB_TOKEN }}
@@ -74,5 +80,4 @@ jobs:
           #   docs/**/*.md
 
           plugins: |
-            @gumball12/yuki-no-plugin-test@0.0.1
-            ./test-plugin.js
+            @gumball12/yuki-no-plugin-test@0.0.2
